@@ -7,10 +7,17 @@
 #include <string>
 #include <ctime>
 #include <sstream>
+#include <VehicleException.h>
+
 using namespace std;
 
 Vehicle::Vehicle(string tmp, int tmp2)
 {
+    if(tmp2<0)
+    {
+        throw new VehicleException("Vehicle Exception id<0");
+    }
+
     this->id=tmp;
     this->baseRentPrice=tmp2;
     this->ifRented=false;

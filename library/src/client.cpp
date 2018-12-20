@@ -16,16 +16,24 @@
 #include <memory>
 #include <cstddef>
 #include <list>
+#include <ClientException.h>
+
 using namespace std;
 
 Client::Client(string fn, string ln, string pid, Address_ptr a, Address_ptr ra)
 {
+
+    if((a== nullptr)||(ra== nullptr))
+    {
+        throw new ClientException("Adress Nullptr exception");
+    }
     this->firstName=fn;
     this->lastName=ln;
     this->personalid=pid;
     this->address=a;
     this->registeredAddress=ra;
     this->client_type=ClientType_ptr(new BaseClient());
+
 }
 
 string Client::clientInfo()
@@ -36,6 +44,7 @@ string Client::clientInfo()
              tmp << firstName << " " << lastName << " " << personalid;
              return tmp.str();
         }
+    //to powinniscmy usunac
     if(registeredAddress!=nullptr || address!=nullptr)
         {
             tmp << firstName << " " << lastName << " " << personalid << " " << registeredAddress->AddressInfo() << " " <<  address->AddressInfo() << " ";
@@ -64,6 +73,7 @@ void Client::changeClientType(string nazwa)
    else
    {
        cout << "THERE IS NO CLIENT TYPE MATCHING!" << endl;
+       throw new ClientException("No such client type ClientException");
    }
 }
 

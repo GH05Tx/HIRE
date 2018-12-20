@@ -6,6 +6,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
+#include <VehicleException.h>
+
 using namespace std;
 
 Car::Car(char seg, string id2, int base, int engine):MotorVehicle(id2,base,engine)
@@ -24,6 +26,7 @@ int Car::actualRentalPrice()
         case 'C':{tmp=1.2;}break;
         case 'D':{tmp=1.3;}break;
         case 'E':{tmp=1.5;}break;
+        default: throw new VehicleException("Bad Segment Vehicle Exception");
     }
     if(engineDisplacement<1000) {price*=tmp;}
     if(engineDisplacement>2000) {price*=tmp*1.5;}

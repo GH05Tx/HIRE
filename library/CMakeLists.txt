@@ -73,7 +73,7 @@ include/BaseClient.h
 src/ClientType.cpp
       
 include/ClientType.h
-)
+        src/ClientException.cpp include/ClientException.h src/VehicleException.cpp include/VehicleException.h src/RentException.cpp include/RentException.h)
 
 add_library(Library ${SOURCE_FILES})
 
