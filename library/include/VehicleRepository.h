@@ -7,13 +7,18 @@
 #include <memory>
 #include <list>
 #include "vehicle.h"
+#include "Repository.h"
 using namespace std;
 
-class VehicleRepository:public Repository {
+class VehicleRepository:public Repository<Vehicle_ptr>{
 public:
-    string vehicleReport();
-    void addVehicle(Vehicle_ptr);
-    Vehicle_ptr getVehicle(int);
+    VehicleRepository();
+    void create(Vehicle_ptr veh);
+    void remove(Vehicle_ptr veh);
+    void update();
+    std::string getAll(); //zwraca report
+    Vehicle_ptr find(std::string str );
+    ~VehicleRepository();
 };
 typedef shared_ptr<VehicleRepository>VR_ptr;
 #endif //PRO_WYPO_VEHICLEREPOSITORY_H

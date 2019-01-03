@@ -6,17 +6,23 @@
 #define PRO_WYPO_CLIENTREPOSITORY_H
 #include<memory>
 #include<list>
+#include "Repository.h"
+
 using namespace std;
 class Client;
 typedef shared_ptr<Client> Client_ptr;
 
-class ClientRepository {
-    list<Client_ptr> cli_repo;
+class ClientRepository: public Repository<Client_ptr>{
 public:
-    void addClient(Client_ptr);
-    void removeClient(Client_ptr);
+    ClientRepository();
+    void create(Client_ptr ptr);
+    void remove(Client_ptr ptr);
+    void update();
+    std::string getAll(); //zwraca report
+    Client_ptr find(std::string);
+~ClientRepository();
     void removeClient(int);
-    string ClientReport();
+
     void changeType(Client_ptr,string);
 };
 typedef shared_ptr<ClientRepository>CR_ptr;

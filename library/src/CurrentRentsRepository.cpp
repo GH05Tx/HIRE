@@ -9,32 +9,44 @@
 #include <cstdlib>
 #include <list>
 #include <sstream>
+#include <CurrentRentsRepository.h>
+
 using namespace std;
 
-void CurrentRentsRepository::createRent(Rent_ptr tmp)
-{
-    repo.push_back(tmp);
+void CurrentRentsRepository::create(Rent_ptr ptr) {
+this->repoList.push_back( ptr);
 }
 
-void CurrentRentsRepository::removeRent(Rent_ptr tmp)
-{
-    repo.remove(tmp);
+void CurrentRentsRepository::remove(Rent_ptr ptr) {
+this->repoList.remove(ptr);
 }
 
-string CurrentRentsRepository::getClientForRentedVehicle(Vehicle_ptr tmp)
+void CurrentRentsRepository::update() {
+
+}
+
+std::string CurrentRentsRepository::getAll() {
+string temp = "";
+for(Rent_ptr ptr: this->repoList)
 {
-    for(auto it:repo)
+    temp += ptr->rentInfo();
+}
+return temp;
+}
+
+Rent_ptr CurrentRentsRepository::find(std::string str) {
+    for(Rent_ptr ptr: this->repoList)
     {
-        return it->getClient()->clientInfo();
-    }
+if(true/*?co tu ma byc*/)
+{
+    return ptr;
+}
+    }}
+
+CurrentRentsRepository::~CurrentRentsRepository() {
+
 }
 
-string CurrentRentsRepository::rentReport()
-{
-    stringstream tmp;
-    for(auto it:repo)
-    {
-        tmp << it->rentInfo() << "\n";
-    }
-    return tmp.str();
+CurrentRentsRepository::CurrentRentsRepository() {
+
 }

@@ -9,7 +9,7 @@
 #include <list>
 #include <string>
 
-template <class T>
+template <class  T>
 class Repository{
 protected:
     std::list<T> repoList;
@@ -19,6 +19,7 @@ public:
     virtual void update()=0;
     virtual std::string getAll()=0; //zwraca report
     virtual T find(std::string)=0;
+    ~Repository();
 };
 
 

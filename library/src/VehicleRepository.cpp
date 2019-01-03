@@ -5,29 +5,35 @@
 #include "../include/VehicleRepository.h"
 #include <memory>
 #include <list>
+#include <VehicleRepository.h>
+
 using namespace std;
 
-string VehicleRepository::vehicleReport()
-{
-    string report="";
-    for(auto it: veh_repo)
-    {
-        report+=it-> vehicleInfo() + "\n";
-    }
-    return report;
+void VehicleRepository::create(Vehicle_ptr veh) {
+    this->repoList.push_back(veh);
 }
-
-void VehicleRepository::addVehicle(Vehicle_ptr veh)
-{
-    veh_repo.push_back(veh);
+void VehicleRepository::remove(Vehicle_ptr veh) {
+    this->repoList.remove(veh);
 }
-
-Vehicle_ptr VehicleRepository::getVehicle(int nr)
-{
-    int i=0;
-    for(auto it: veh_repo)
+Vehicle_ptr VehicleRepository::find(std::string str) {
+    for(Vehicle_ptr veh: this->repoList)
     {
-        i++;
-        if(i==nr) return it;
+        if (veh->getID()== str)
+        {
+            return veh;
+        }
     }
+}
+std::string VehicleRepository::getAll() {
+    string temp= " ";
+    for(Vehicle_ptr veh: this->repoList)
+    {
+      temp+= veh->vehicleInfo() + " ";
+    }
+    return temp;
+}
+VehicleRepository::~VehicleRepository() {}
+
+VehicleRepository::VehicleRepository() {
+
 }

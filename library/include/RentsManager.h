@@ -7,12 +7,22 @@
 
 
 #include "client.h"
+#include "vehicle.h"
+#include "CurrentRentsRepository.h"
+#include "ClientRepository.h"
 
 class RentsManager
 {
-    void returnVehicle();
-    void getAllClientRents();
-    void checkClientRentBallance(Client_ptr);
+
+    CurrentRentsRepository currentRents;
+    CurrentRentsRepository archiveRents;
+    ClientRepository clientRepository;
+public:
+    RentsManager();
+    void rentVehicle(Vehicle_ptr ptr);
+    void returnVehicle(Vehicle_ptr ptr);
+    list <Rent_ptr> getAllClientRents(Client_ptr ptr);
+    int checkClientRentBallance(Client_ptr);
     void changeClientType();
 };
 

@@ -7,19 +7,24 @@
 #include <list>
 #include <iostream>
 #include "../include/vehicle.h"
+#include "Repository.h"
+
 using namespace std;
 
 class Vehicle;
 class Rent;
 typedef shared_ptr<Rent>Rent_ptr;
-class CurrentRentsRepository
+class CurrentRentsRepository:public Repository<Rent_ptr>
 {
-    list <Rent_ptr> repo;
 public:
-    void createRent(Rent_ptr);
-    void removeRent(Rent_ptr);
-    string getClientForRentedVehicle(Vehicle_ptr);
-    string rentReport();
+    CurrentRentsRepository();
+    void create(Rent_ptr ptr);
+    void remove(Rent_ptr ptr);
+    void update();
+    std::string getAll(); //zwraca report
+    Rent_ptr find(std::string str);
+    ~CurrentRentsRepository();
+
 };
 
 #endif //PRO_WYPO_CURRENTRENTSREPOSITORY_H
