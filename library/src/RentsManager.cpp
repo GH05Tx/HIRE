@@ -1,14 +1,26 @@
-//
-// Created by Janek on 05.12.2018.
-//
+
 #include <RentsManager.h>
 #include <RentException.h>
 
 #include "../include/RentsManager.h"
 
 
-void RentsManager::changeClientType()
+void RentsManager::changeClientType(Client_ptr client)
 {
+list<Rent_ptr>rents = this->archiveRents.getAllClientRents(client);
+int x = rents.size();
+if(x=3)
+{
+    client->changeClientType("BRONZE");
+}
+if(x=5)
+{
+    client->changeClientType("SILVER");
+}
+if(x=7)
+{
+    client->changeClientType("GOLD");
+}
 
 }
 
@@ -17,7 +29,7 @@ RentsManager::RentsManager() {
 }
 
 void RentsManager::rentVehicle(Vehicle_ptr vehicle,Client_ptr client) {
-if(vehicle->getStatus())
+if(this->currentRents.find(vehicle)!= nullptr)
 {
     throw new RentException();
 }
@@ -30,16 +42,16 @@ this->currentRents.create(one);
 }
 
 void RentsManager::returnVehicle(Vehicle_ptr vehicle) {
-    if(!vehicle->getStatus())
+    if(this->currentRents.find(vehicle)== nullptr)
     {
         throw new RentException();
     }
     Rent_ptr one = this->currentRents.find(vehicle);
+    Client_ptr client_ptr = one->getClient();
     this->currentRents.remove(one); //???to czy to zadziala
     this->archiveRents.create(one);
     //tu mozna dodac spr czy klient awansowal
+    this->changeClientType(client_ptr);
 }
 
-list<Rent_ptr> RentsManager::getAllClientRents(Client_ptr ptr) {
-    return list<Rent_ptr>();
-}
+

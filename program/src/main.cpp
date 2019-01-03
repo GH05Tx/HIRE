@@ -12,7 +12,7 @@
 #include "../include/motorvehicle.h"
 #include "../include/vehicle.h"
 #include "../include/rent.h"
-#include "../include/CurrentRentsRepository.h"
+#include "RentsRepository.h"
 #include "../include/VehicleRepository.h"
 #include "../include/ClientRepository.h"
 
@@ -60,7 +60,7 @@ int main()
 
 
     cout << "RENT REPOSITORY" << endl;
-    CurrentRentsRepository repo;
+    RentsRepository repo;
     repo.createRent(one);
     repo.createRent(two);
     repo.rentReport();

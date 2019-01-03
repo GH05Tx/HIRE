@@ -14,15 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956457e8-f98e-4ecd-b6d4-7f3d9d0f70ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/library/include/CurrentRentsRepository.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/CurrentRentsRepository.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/include/RentException.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/RentException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/include/CurrentRentsRepository.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/RentsRepository.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/include/RentsManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/RentsManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/include/client.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/client.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/RentException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentException.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentsRepository.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/src/RentsManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentsManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/rent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/rent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,15 +55,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1371" />
-          <entry key="h" value="539" />
+          <entry key="cpp" value="1723" />
+          <entry key="h" value="607" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="7" />
-          <entry key="ObjectiveC" value="1910" />
+          <entry key="ObjectiveC" value="2330" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/include/RentsManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="260">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#108#127#0" expanded="true" />
               </folding>
@@ -87,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library/src/RentsManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="355">
+              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -105,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/include/VehicleRepository.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -114,26 +112,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/VehicleRepository.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="136">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/include/CurrentRentsRepository.h">
+        <entry file="file://$PROJECT_DIR$/library/include/RentsRepository.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp">
+        <entry file="file://$PROJECT_DIR$/library/src/RentsRepository.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="141">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -167,12 +165,14 @@
         <option value="$PROJECT_DIR$/library/include/VehicleRepository.h" />
         <option value="$PROJECT_DIR$/library/include/RentException.h" />
         <option value="$PROJECT_DIR$/library/src/RentException.cpp" />
-        <option value="$PROJECT_DIR$/library/include/RentsManager.h" />
         <option value="$PROJECT_DIR$/library/include/client.h" />
         <option value="$PROJECT_DIR$/library/src/client.cpp" />
         <option value="$PROJECT_DIR$/library/src/rent.cpp" />
         <option value="$PROJECT_DIR$/library/include/CurrentRentsRepository.h" />
         <option value="$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp" />
+        <option value="$PROJECT_DIR$/library/src/RentsRepository.cpp" />
+        <option value="$PROJECT_DIR$/library/include/RentsRepository.h" />
+        <option value="$PROJECT_DIR$/library/include/RentsManager.h" />
         <option value="$PROJECT_DIR$/library/src/RentsManager.cpp" />
       </list>
     </option>
@@ -183,6 +183,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="y" value="-2" />
@@ -299,12 +300,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546541960282</updated>
       <workItem from="1546542003420" duration="3011000" />
-      <workItem from="1546548064148" duration="5609000" />
+      <workItem from="1546548064148" duration="7925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8620000" />
+    <option name="totallyTimeSpent" value="10936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -395,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/include/VehicleRepository.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/include/ClientType.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -436,37 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/include/RentsManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#108#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/include/CurrentRentsRepository.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/VehicleRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/include/client.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -481,10 +444,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/RentsRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/RentsManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#108#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/RentsRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/VehicleRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/VehicleRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/RentsManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="355">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -35,10 +35,10 @@ include/car.h
 src/moped.cpp
         
 include/moped.h
-        
-src/CurrentRentsRepository.cpp
-        
-include/CurrentRentsRepository.h
+
+        src/RentsRepository.cpp
+
+        include/RentsRepository.h
         
 src/motorvehicle.cpp
        
