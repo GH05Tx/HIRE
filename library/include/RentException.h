@@ -11,7 +11,7 @@ using namespace std;
 class RentException: public logic_error {
 
 public:
-    RentException(string msg);
+    RentException();
 
 };
 

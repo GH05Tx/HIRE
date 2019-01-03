@@ -19,7 +19,7 @@ class RentsManager
     ClientRepository clientRepository;
 public:
     RentsManager();
-    void rentVehicle(Vehicle_ptr ptr);
+    void rentVehicle(Vehicle_ptr vehicle,Client_ptr client);
     void returnVehicle(Vehicle_ptr ptr);
     list <Rent_ptr> getAllClientRents(Client_ptr ptr);
     int checkClientRentBallance(Client_ptr);

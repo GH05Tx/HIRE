@@ -50,3 +50,13 @@ CurrentRentsRepository::~CurrentRentsRepository() {
 CurrentRentsRepository::CurrentRentsRepository() {
 
 }
+
+Rent_ptr CurrentRentsRepository::find(Vehicle_ptr ptr) {
+    for(Rent_ptr ptr : this->repoList)
+    {
+        if (ptr->getVehicle()==ptr)
+        {
+            return ptr;
+        }
+    }
+}

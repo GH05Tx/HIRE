@@ -5,4 +5,4 @@
 #include "RentException.h"
 
 
-RentException::RentException(string msg):logic_error(msg) {}
+RentException::RentException():logic_error("rent exception") {}

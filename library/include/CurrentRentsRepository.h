@@ -23,6 +23,7 @@ public:
     void update();
     std::string getAll(); //zwraca report
     Rent_ptr find(std::string str);
+    Rent_ptr find(Vehicle_ptr ptr);
     ~CurrentRentsRepository();
 
 };

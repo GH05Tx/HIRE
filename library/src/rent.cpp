@@ -31,6 +31,7 @@ Rent::Rent(Vehicle_ptr ptr, Client_ptr ptr2)
             this->vehicle=ptr;
             this->client=ptr2;
             vehicle->setBool(true);
+            this->client->addNewRent();
     }
 }
 

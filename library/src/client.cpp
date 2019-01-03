@@ -17,6 +17,8 @@
 #include <cstddef>
 #include <list>
 #include <ClientException.h>
+#include <client.h>
+
 
 using namespace std;
 
@@ -33,6 +35,7 @@ Client::Client(string fn, string ln, string pid, Address_ptr a, Address_ptr ra)
     this->address=a;
     this->registeredAddress=ra;
     this->client_type=ClientType_ptr(new BaseClient());
+    this->numberOfRents=0;
 
 }
 
@@ -168,3 +171,14 @@ void Client::setregisteredAddress(Address_ptr rA)
 {
     this->registeredAddress=rA;
 }
+
+int Client::getNumberOfRents() {
+return this->numberOfRents;
+}
+
+void Client::addNewRent() {
+this->numberOfRents++;
+}
+
+
+

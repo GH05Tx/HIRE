@@ -29,6 +29,7 @@ private:
     Address_ptr registeredAddress;
     Address_ptr address;
     ClientType_ptr client_type;
+    int numberOfRents;
 public:
     Client(string, string, string, Address_ptr, Address_ptr);
     ~Client();
@@ -49,6 +50,9 @@ public:
     void setAddress(Address_ptr);
     Address_ptr getregisteredAddress();
     void setregisteredAddress(Address_ptr);
+    ClientType_ptr getClient_type();
+    int getNumberOfRents();
+    void addNewRent();
 };
 typedef shared_ptr<Client> Client_ptr;
 
