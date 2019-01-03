@@ -13,15 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="956457e8-f98e-4ecd-b6d4-7f3d9d0f70ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/include/CurrentRentsRepository.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/RentsRepository.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/include/RentsManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/RentsManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentsRepository.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/RentsManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentsManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="956457e8-f98e-4ecd-b6d4-7f3d9d0f70ea" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library/src/RentsManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="83">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -300,12 +292,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546541960282</updated>
       <workItem from="1546542003420" duration="3011000" />
-      <workItem from="1546548064148" duration="7925000" />
+      <workItem from="1546548064148" duration="8529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10936000" />
+    <option name="totallyTimeSpent" value="11540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -484,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/RentsManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="83">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
         </state>
       </provider>
     </entry>
