@@ -9,8 +9,7 @@
 #include "vehicle.h"
 using namespace std;
 
-class VehicleRepository {
-    list<Vehicle_ptr> veh_repo;
+class VehicleRepository:public Repository {
 public:
     string vehicleReport();
     void addVehicle(Vehicle_ptr);

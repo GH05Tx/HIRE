@@ -5,7 +5,7 @@ project(Program)
 #specify set of project's source files
 set(SOURCE_FILES
         src/main.cpp
-        ../library/src/ClientException.cpp ../library/include/ClientException.h ../library/src/VehicleException.cpp ../library/include/VehicleException.h ../library/src/RentException.cpp ../library/include/RentException.h)
+        ../library/src/ClientException.cpp ../library/include/ClientException.h ../library/src/VehicleException.cpp ../library/include/VehicleException.h ../library/src/RentException.cpp ../library/include/RentException.h ../library/src/Repository.cpp ../library/include/Repository.h)
 #add following files to executable file 'Program'
 add_executable(Program ${SOURCE_FILES})
 

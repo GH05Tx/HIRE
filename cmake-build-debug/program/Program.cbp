@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Program"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program">
+				<Option output="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include"/>
+					<Add directory="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program/fast">
+				<Option output="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include"/>
+					<Add directory="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/ClientException.h">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/RentException.h">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.h">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/VehicleException.h">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

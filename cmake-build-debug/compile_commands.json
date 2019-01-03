@@ -1,0 +1,147 @@
+[
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/client.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/client.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/client.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/address.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/address.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/address.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/vehicle.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/vehicle.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/vehicle.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/rent.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/rent.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/rent.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/motorvehicle.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/motorvehicle.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/motorvehicle.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/bicycle.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/bicycle.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/bicycle.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/car.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/car.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/car.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/moped.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/moped.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/moped.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/CurrentRentsRepository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/CurrentRentsRepository.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/VehicleRepository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleRepository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleRepository.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientRepository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientRepository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientRepository.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentsManager.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsManager.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsManager.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/GoldClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/GoldClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/GoldClient.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/BronzeClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BronzeClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BronzeClient.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/SilverClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/SilverClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/SilverClient.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/BaseClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BaseClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BaseClient.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientType.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientType.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientType.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/VehicleException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Repository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/master.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/master.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/master.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/ClientTest.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ClientTest.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ClientTest.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/VehicleTest.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/VehicleTest.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/VehicleTest.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/ClientException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/VehicleException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/RentException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/include/Repository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.cpp"
+}
+]
