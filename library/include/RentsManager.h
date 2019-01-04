@@ -22,6 +22,8 @@ public:
     void rentVehicle(Vehicle_ptr vehicle,Client_ptr client);
     void returnVehicle(Vehicle_ptr ptr);
     void changeClientType(Client_ptr);
+    list<Rent_ptr>getAllClientRents(Client_ptr client);
+    int checkClientRentBallance(Client_ptr client);
 };
 
 

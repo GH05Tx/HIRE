@@ -171,19 +171,19 @@ library/CMakeFiles/Library.dir/src/moped.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/moped.cpp.s"
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\CLionProjects\wypoorg\library\src\moped.cpp -o CMakeFiles\Library.dir\src\moped.cpp.s
 
-library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj: ../library/src/CurrentRentsRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj"
-	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\CurrentRentsRepository.cpp.obj -c C:\Users\Mateusz\CLionProjects\wypoorg\library\src\CurrentRentsRepository.cpp
+library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj: ../library/src/RentsRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj"
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\RentsRepository.cpp.obj -c C:\Users\Mateusz\CLionProjects\wypoorg\library\src\RentsRepository.cpp
 
-library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.i"
-	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\CLionProjects\wypoorg\library\src\CurrentRentsRepository.cpp > CMakeFiles\Library.dir\src\CurrentRentsRepository.cpp.i
+library/CMakeFiles/Library.dir/src/RentsRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/RentsRepository.cpp.i"
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\CLionProjects\wypoorg\library\src\RentsRepository.cpp > CMakeFiles\Library.dir\src\RentsRepository.cpp.i
 
-library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.s"
-	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\CLionProjects\wypoorg\library\src\CurrentRentsRepository.cpp -o CMakeFiles\Library.dir\src\CurrentRentsRepository.cpp.s
+library/CMakeFiles/Library.dir/src/RentsRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/RentsRepository.cpp.s"
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\CLionProjects\wypoorg\library\src\RentsRepository.cpp -o CMakeFiles\Library.dir\src\RentsRepository.cpp.s
 
 library/CMakeFiles/Library.dir/src/VehicleRepository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
 library/CMakeFiles/Library.dir/src/VehicleRepository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
@@ -353,6 +353,20 @@ library/CMakeFiles/Library.dir/src/Repository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Repository.cpp.s"
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\CLionProjects\wypoorg\library\src\Repository.cpp -o CMakeFiles\Library.dir\src\Repository.cpp.s
 
+library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj: ../library/include/clientsmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\clientsmanager.cpp.obj -c C:\Users\Mateusz\CLionProjects\wypoorg\library\include\clientsmanager.cpp
+
+library/CMakeFiles/Library.dir/include/clientsmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/clientsmanager.cpp.i"
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\CLionProjects\wypoorg\library\include\clientsmanager.cpp > CMakeFiles\Library.dir\include\clientsmanager.cpp.i
+
+library/CMakeFiles/Library.dir/include/clientsmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/clientsmanager.cpp.s"
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\CLionProjects\wypoorg\library\include\clientsmanager.cpp -o CMakeFiles\Library.dir\include\clientsmanager.cpp.s
+
 # Object files for target Library
 Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/client.cpp.obj" \
@@ -363,7 +377,7 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/bicycle.cpp.obj" \
 "CMakeFiles/Library.dir/src/car.cpp.obj" \
 "CMakeFiles/Library.dir/src/moped.cpp.obj" \
-"CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj" \
+"CMakeFiles/Library.dir/src/RentsRepository.cpp.obj" \
 "CMakeFiles/Library.dir/src/VehicleRepository.cpp.obj" \
 "CMakeFiles/Library.dir/src/ClientRepository.cpp.obj" \
 "CMakeFiles/Library.dir/src/RentsManager.cpp.obj" \
@@ -375,7 +389,8 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/ClientException.cpp.obj" \
 "CMakeFiles/Library.dir/src/VehicleException.cpp.obj" \
 "CMakeFiles/Library.dir/src/RentException.cpp.obj" \
-"CMakeFiles/Library.dir/src/Repository.cpp.obj"
+"CMakeFiles/Library.dir/src/Repository.cpp.obj" \
+"CMakeFiles/Library.dir/include/clientsmanager.cpp.obj"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -388,7 +403,7 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/motorvehicle.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/bicycle.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/car.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/moped.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/VehicleRepository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/ClientRepository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/RentsManager.cpp.obj
@@ -401,9 +416,10 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/ClientException.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/VehicleException.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/RentException.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/Repository.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libLibrary.a"
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && $(CMAKE_COMMAND) -P CMakeFiles\Library.dir\cmake_clean_target.cmake
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug\library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Library.dir\link.txt --verbose=$(VERBOSE)
 

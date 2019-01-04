@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/include/clientsmanager.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientException.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/ClientException.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentException.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/RentException.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/Repository.cpp.obj"

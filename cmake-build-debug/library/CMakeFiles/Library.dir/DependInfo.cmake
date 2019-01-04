@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/BaseClient.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/BaseClient.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/BronzeClient.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/BronzeClient.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientException.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/ClientException.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientRepository.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/ClientRepository.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientType.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/ClientType.cpp.obj"
-  "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/CurrentRentsRepository.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/GoldClient.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/GoldClient.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentException.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/RentException.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsManager.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/RentsManager.cpp.obj"
+  "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsRepository.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/Repository.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/SilverClient.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/SilverClient.cpp.obj"
   "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/VehicleException.cpp" "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library/CMakeFiles/Library.dir/src/VehicleException.cpp.obj"

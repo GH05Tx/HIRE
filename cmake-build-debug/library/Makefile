@@ -138,6 +138,33 @@ Library/fast:
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
+include/clientsmanager.obj: include/clientsmanager.cpp.obj
+
+.PHONY : include/clientsmanager.obj
+
+# target to build an object file
+include/clientsmanager.cpp.obj:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/clientsmanager.cpp.obj
+.PHONY : include/clientsmanager.cpp.obj
+
+include/clientsmanager.i: include/clientsmanager.cpp.i
+
+.PHONY : include/clientsmanager.i
+
+# target to preprocess a source file
+include/clientsmanager.cpp.i:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/clientsmanager.cpp.i
+.PHONY : include/clientsmanager.cpp.i
+
+include/clientsmanager.s: include/clientsmanager.cpp.s
+
+.PHONY : include/clientsmanager.s
+
+# target to generate assembly for a file
+include/clientsmanager.cpp.s:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/clientsmanager.cpp.s
+.PHONY : include/clientsmanager.cpp.s
+
 src/BaseClient.obj: src/BaseClient.cpp.obj
 
 .PHONY : src/BaseClient.obj
@@ -273,33 +300,6 @@ src/ClientType.cpp.s:
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/ClientType.cpp.s
 .PHONY : src/ClientType.cpp.s
 
-src/CurrentRentsRepository.obj: src/CurrentRentsRepository.cpp.obj
-
-.PHONY : src/CurrentRentsRepository.obj
-
-# target to build an object file
-src/CurrentRentsRepository.cpp.obj:
-	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj
-.PHONY : src/CurrentRentsRepository.cpp.obj
-
-src/CurrentRentsRepository.i: src/CurrentRentsRepository.cpp.i
-
-.PHONY : src/CurrentRentsRepository.i
-
-# target to preprocess a source file
-src/CurrentRentsRepository.cpp.i:
-	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.i
-.PHONY : src/CurrentRentsRepository.cpp.i
-
-src/CurrentRentsRepository.s: src/CurrentRentsRepository.cpp.s
-
-.PHONY : src/CurrentRentsRepository.s
-
-# target to generate assembly for a file
-src/CurrentRentsRepository.cpp.s:
-	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.s
-.PHONY : src/CurrentRentsRepository.cpp.s
-
 src/GoldClient.obj: src/GoldClient.cpp.obj
 
 .PHONY : src/GoldClient.obj
@@ -380,6 +380,33 @@ src/RentsManager.s: src/RentsManager.cpp.s
 src/RentsManager.cpp.s:
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/RentsManager.cpp.s
 .PHONY : src/RentsManager.cpp.s
+
+src/RentsRepository.obj: src/RentsRepository.cpp.obj
+
+.PHONY : src/RentsRepository.obj
+
+# target to build an object file
+src/RentsRepository.cpp.obj:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/RentsRepository.cpp.obj
+.PHONY : src/RentsRepository.cpp.obj
+
+src/RentsRepository.i: src/RentsRepository.cpp.i
+
+.PHONY : src/RentsRepository.i
+
+# target to preprocess a source file
+src/RentsRepository.cpp.i:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/RentsRepository.cpp.i
+.PHONY : src/RentsRepository.cpp.i
+
+src/RentsRepository.s: src/RentsRepository.cpp.s
+
+.PHONY : src/RentsRepository.s
+
+# target to generate assembly for a file
+src/RentsRepository.cpp.s:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/RentsRepository.cpp.s
+.PHONY : src/RentsRepository.cpp.s
 
 src/Repository.obj: src/Repository.cpp.obj
 
@@ -715,6 +742,9 @@ help:
 	@echo ... Library
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... include/clientsmanager.obj
+	@echo ... include/clientsmanager.i
+	@echo ... include/clientsmanager.s
 	@echo ... src/BaseClient.obj
 	@echo ... src/BaseClient.i
 	@echo ... src/BaseClient.s
@@ -730,9 +760,6 @@ help:
 	@echo ... src/ClientType.obj
 	@echo ... src/ClientType.i
 	@echo ... src/ClientType.s
-	@echo ... src/CurrentRentsRepository.obj
-	@echo ... src/CurrentRentsRepository.i
-	@echo ... src/CurrentRentsRepository.s
 	@echo ... src/GoldClient.obj
 	@echo ... src/GoldClient.i
 	@echo ... src/GoldClient.s
@@ -742,6 +769,9 @@ help:
 	@echo ... src/RentsManager.obj
 	@echo ... src/RentsManager.i
 	@echo ... src/RentsManager.s
+	@echo ... src/RentsRepository.obj
+	@echo ... src/RentsRepository.i
+	@echo ... src/RentsRepository.s
 	@echo ... src/Repository.obj
 	@echo ... src/Repository.i
 	@echo ... src/Repository.s

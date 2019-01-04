@@ -41,8 +41,8 @@
 },
 {
   "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\CurrentRentsRepository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\CurrentRentsRepository.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/CurrentRentsRepository.cpp"
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\RentsRepository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\RentsRepository.cpp",
+  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsRepository.cpp"
 },
 {
   "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
@@ -105,6 +105,11 @@
   "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp"
 },
 {
+  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\include\\clientsmanager.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\include\\clientsmanager.cpp",
+  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp"
+},
+{
   "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\src\\main.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\program\\src\\main.cpp",
   "file": "C:/Users/Mateusz/CLionProjects/wypoorg/program/src/main.cpp"
@@ -128,5 +133,10 @@
   "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\src\\Repository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\Repository.cpp",
   "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp"
+},
+{
+  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\include\\clientsmanager.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\include\\clientsmanager.cpp",
+  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp"
 }
 ]

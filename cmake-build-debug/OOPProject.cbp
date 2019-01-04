@@ -154,9 +154,6 @@
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/ClientType.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/CurrentRentsRepository.h">
-			<Option target="Library"/>
-		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/GoldClient.h">
 			<Option target="Library"/>
 		</Unit>
@@ -165,6 +162,9 @@
 			<Option target="Program"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/RentsManager.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/RentsRepository.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/Repository.h">
@@ -192,6 +192,14 @@
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/client.h">
 			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.h">
+			<Option target="Library"/>
+			<Option target="Program"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/moped.h">
 			<Option target="Library"/>
@@ -221,9 +229,6 @@
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientType.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/CurrentRentsRepository.cpp">
-			<Option target="Library"/>
-		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/GoldClient.cpp">
 			<Option target="Library"/>
 		</Unit>
@@ -232,6 +237,9 @@
 			<Option target="Program"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsManager.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsRepository.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp">

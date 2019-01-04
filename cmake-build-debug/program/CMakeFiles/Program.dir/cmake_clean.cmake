@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Program.dir/__/library/src/VehicleException.cpp.obj"
   "CMakeFiles/Program.dir/__/library/src/RentException.cpp.obj"
   "CMakeFiles/Program.dir/__/library/src/Repository.cpp.obj"
+  "CMakeFiles/Program.dir/__/library/include/clientsmanager.cpp.obj"
   "Program.pdb"
   "Program.exe"
   "Program.exe.manifest"

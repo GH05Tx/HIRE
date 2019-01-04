@@ -76,6 +76,12 @@
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/VehicleException.h">
 			<Option target="Program"/>
 		</Unit>
+		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.h">
+			<Option target="Program"/>
+		</Unit>
 		<Unit filename="C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientException.cpp">
 			<Option target="Program"/>
 		</Unit>

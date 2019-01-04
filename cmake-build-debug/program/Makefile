@@ -138,6 +138,33 @@ Program/fast:
 	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/build
 .PHONY : Program/fast
 
+__/library/include/clientsmanager.obj: __/library/include/clientsmanager.cpp.obj
+
+.PHONY : __/library/include/clientsmanager.obj
+
+# target to build an object file
+__/library/include/clientsmanager.cpp.obj:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/clientsmanager.cpp.obj
+.PHONY : __/library/include/clientsmanager.cpp.obj
+
+__/library/include/clientsmanager.i: __/library/include/clientsmanager.cpp.i
+
+.PHONY : __/library/include/clientsmanager.i
+
+# target to preprocess a source file
+__/library/include/clientsmanager.cpp.i:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/clientsmanager.cpp.i
+.PHONY : __/library/include/clientsmanager.cpp.i
+
+__/library/include/clientsmanager.s: __/library/include/clientsmanager.cpp.s
+
+.PHONY : __/library/include/clientsmanager.s
+
+# target to generate assembly for a file
+__/library/include/clientsmanager.cpp.s:
+	cd /d C:\Users\Mateusz\CLionProjects\wypoorg\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/clientsmanager.cpp.s
+.PHONY : __/library/include/clientsmanager.cpp.s
+
 __/library/src/ClientException.obj: __/library/src/ClientException.cpp.obj
 
 .PHONY : __/library/src/ClientException.obj
@@ -283,6 +310,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
+	@echo ... __/library/include/clientsmanager.obj
+	@echo ... __/library/include/clientsmanager.i
+	@echo ... __/library/include/clientsmanager.s
 	@echo ... __/library/src/ClientException.obj
 	@echo ... __/library/src/ClientException.i
 	@echo ... __/library/src/ClientException.s

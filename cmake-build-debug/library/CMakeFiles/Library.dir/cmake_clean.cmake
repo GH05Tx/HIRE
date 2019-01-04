@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/bicycle.cpp.obj"
   "CMakeFiles/Library.dir/src/car.cpp.obj"
   "CMakeFiles/Library.dir/src/moped.cpp.obj"
-  "CMakeFiles/Library.dir/src/CurrentRentsRepository.cpp.obj"
+  "CMakeFiles/Library.dir/src/RentsRepository.cpp.obj"
   "CMakeFiles/Library.dir/src/VehicleRepository.cpp.obj"
   "CMakeFiles/Library.dir/src/ClientRepository.cpp.obj"
   "CMakeFiles/Library.dir/src/RentsManager.cpp.obj"
@@ -20,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/VehicleException.cpp.obj"
   "CMakeFiles/Library.dir/src/RentException.cpp.obj"
   "CMakeFiles/Library.dir/src/Repository.cpp.obj"
+  "CMakeFiles/Library.dir/include/clientsmanager.cpp.obj"
   "libLibrary.pdb"
   "libLibrary.a"
 )
