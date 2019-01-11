@@ -1,12 +1,11 @@
-#include "RentsRepository.h"
+#include "../include/RentsRepository.h"
 #include "../include/rent.h"
 #include "../include/client.h"
 #include <iostream>
 #include <cstdlib>
 #include <list>
 #include <sstream>
-#include <RentsRepository.h>
-#include <RentException.h>
+#include <../include/RentException.h>
 
 using namespace std;
 

@@ -8,7 +8,9 @@
 #include <VehicleRepository.h>
 
 using namespace std;
+VehicleRepository::VehicleRepository() {
 
+}
 void VehicleRepository::create(Vehicle_ptr veh) {
     this->repoList.push_back(veh);
 }
@@ -32,8 +34,16 @@ std::string VehicleRepository::getAll() {
     }
     return temp;
 }
-VehicleRepository::~VehicleRepository() {}
 
-VehicleRepository::VehicleRepository() {
+void VehicleRepository::update() {
 
 }
+
+VehicleRepository::~VehicleRepository()
+{
+
+}
+
+
+
+

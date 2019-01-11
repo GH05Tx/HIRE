@@ -43,8 +43,6 @@ library/CMakeFiles/Library.dir/src/RentsManager.cpp.o: ../library/src/RentsManag
 library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/RentException.h
 library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/RentsRepository.h
 library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/Repository.h
-library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/rent.h
-library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/vehicle.h
 library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/client.h
 library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/rent.h
 library/CMakeFiles/Library.dir/src/RentsRepository.cpp.o: ../library/include/vehicle.h

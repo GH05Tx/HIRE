@@ -19,7 +19,7 @@ public:
     virtual void update()=0;
     virtual std::string getAll()=0; //zwraca report
     virtual T find(std::string)=0;
-    ~Repository();
+    ~Repository()=default;
 };
 
 

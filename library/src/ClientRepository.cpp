@@ -6,7 +6,9 @@
 #include "../include/ClientRepository.h"
 #include "../include/client.h"
 
+ClientRepository::ClientRepository() {
 
+}
 void ClientRepository::changeType(Client_ptr client, string nazwa)
 {
     client->changeClientType(nazwa);
@@ -45,6 +47,4 @@ ClientRepository::~ClientRepository() {
 
 }
 
-ClientRepository::ClientRepository() {
 
-}

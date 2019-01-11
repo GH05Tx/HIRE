@@ -7,9 +7,9 @@
 #include<memory>
 #include<list>
 #include "Repository.h"
-
+#include "../include/client.h"
 using namespace std;
-class Client;
+//class Client;
 typedef shared_ptr<Client> Client_ptr;
 
 class ClientRepository: public Repository<Client_ptr>{
@@ -20,10 +20,12 @@ public:
     void update();
     std::string getAll(); //zwraca report
     Client_ptr find(std::string);
-~ClientRepository();
     void removeClient(int);
 
     void changeType(Client_ptr,string);
+
+    ~ClientRepository();
+
 };
-typedef shared_ptr<ClientRepository>CR_ptr;
+//typedef shared_ptr<ClientRepository>CR_ptr;
 #endif //PRO_WYPO_CLIENTREPOSITORY_H

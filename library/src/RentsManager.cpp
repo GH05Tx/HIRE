@@ -61,5 +61,15 @@ int RentsManager::checkClientRentBallance(Client_ptr client) {
     }
     return cost;
 }
+/*
+RentsManager::~RentsManager() {
+    /*
+delete &clientRepository;
+delete &vehicleRepository;
+delete &currentRents;
+delete &archiveRents;
+*/
+ //    }
+
 
 

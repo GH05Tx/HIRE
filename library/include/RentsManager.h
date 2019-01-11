@@ -26,6 +26,7 @@ public:
     void changeClientType(Client_ptr);
     list<Rent_ptr>getAllClientRents(Client_ptr client);
     int checkClientRentBallance(Client_ptr client);
+    ~RentsManager()=default;
 };
 
 

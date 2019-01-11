@@ -19,6 +19,7 @@ public:
     std::string getAll(); //zwraca report
     Vehicle_ptr find(std::string str );
     ~VehicleRepository();
+
 };
 typedef shared_ptr<VehicleRepository>VR_ptr;
 #endif //PRO_WYPO_VEHICLEREPOSITORY_H

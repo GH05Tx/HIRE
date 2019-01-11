@@ -13,6 +13,8 @@ list
 -
 Repository.h
 ../library/include/Repository.h
+../include/client.h
+../library/include/client.h
 
 ../library/include/RentsManager.h
 client.h

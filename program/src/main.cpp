@@ -50,5 +50,6 @@ int main()
 
 
     manager->rentVehicle(cptr,clt);
+    delete manager;
     return 0;
 }
