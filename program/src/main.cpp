@@ -50,6 +50,11 @@ int main()
 
 
     manager->rentVehicle(cptr,clt);
-    delete manager;
+    manager->rentVehicle(vptr,clt);
+    //cout<<"Tu rzuci exc"<<endl;
+    //manager->rentVehicle(vptr,clt2);
+    manager->returnVehicle(vptr);
+
+    //delete manager;
     return 0;
 }

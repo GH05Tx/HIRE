@@ -41,7 +41,9 @@ Client_ptr ClientRepository::find(std::string str) {
         {
             return client;
         }
-    }}
+    }
+    return nullptr;
+}
 
 ClientRepository::~ClientRepository() {
 

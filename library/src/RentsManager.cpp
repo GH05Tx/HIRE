@@ -4,6 +4,9 @@
 
 #include "../include/RentsManager.h"
 
+RentsManager::RentsManager() {
+
+}
 
 void RentsManager::changeClientType(Client_ptr client) {
     list<Rent_ptr> rents = this->archiveRents.getAllClientRents(client);
@@ -20,14 +23,15 @@ void RentsManager::changeClientType(Client_ptr client) {
 
 }
 
-RentsManager::RentsManager() {
 
-}
 
 void RentsManager::rentVehicle(Vehicle_ptr vehicle, Client_ptr client) {
-    if (this->currentRents.find(vehicle) != nullptr) {
+    cout<<"JEDEN"<<endl;
+
+    if (this->currentRents.find(vehicle)!=nullptr) {
         throw new RentException();
     }
+
     if (client->getNumberOfRents() > client->getMRents()) {
         throw new RentException();
     }
@@ -43,7 +47,7 @@ void RentsManager::returnVehicle(Vehicle_ptr vehicle) {
     }
     Rent_ptr one = this->currentRents.find(vehicle);
     Client_ptr client_ptr = one->getClient();
-    this->currentRents.remove(one); //???to czy to zadziala
+    this->currentRents.remove(one);
     this->archiveRents.create(one);
     //tu mozna dodac spr czy klient awansowal
     this->changeClientType(client_ptr);
@@ -61,15 +65,7 @@ int RentsManager::checkClientRentBallance(Client_ptr client) {
     }
     return cost;
 }
-/*
-RentsManager::~RentsManager() {
-    /*
-delete &clientRepository;
-delete &vehicleRepository;
-delete &currentRents;
-delete &archiveRents;
-*/
- //    }
+
 
 
 

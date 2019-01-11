@@ -29,10 +29,6 @@ std::string RentsRepository::getAll() {
     for (Rent_ptr ptr: this->repoList) {
         temp += ptr->rentInfo();
     }
-    if(temp=="")
-    {
-        throw new RentException();
-    }
     return temp;
 }
 
@@ -42,7 +38,7 @@ Rent_ptr RentsRepository::find(std::string str) {
             return ptr;
         }
     }
-    throw new RentException();
+    return nullptr;
 }
 
 
@@ -50,25 +46,26 @@ Rent_ptr RentsRepository::find(std::string str) {
 
 
 Rent_ptr RentsRepository::find(Vehicle_ptr ptr) {
-    for (Rent_ptr ptr : this->repoList) {
-        if (ptr->getVehicle() == ptr->getVehicle()) {
-            return ptr;
+    for (Rent_ptr ptr1 : this->repoList) {
+        if (ptr1->getVehicle() == ptr) {
+            return ptr1;
         }
     }
-    throw new RentException();
+    return nullptr;
 }
 
 list<Rent_ptr> RentsRepository::getAllClientRents(Client_ptr ptr) {
     list<Rent_ptr> rents;
+    if(rents.empty())
+    {
+        return rents;
+    }
     for (Rent_ptr ptr1 : this->repoList) {
         if (ptr1->getClient() == ptr) {
             rents.push_back(ptr1);
         }
     }
-    if(rents.empty())
-    {
-        throw new RentException();
-    }
+
     return rents;
 
 }

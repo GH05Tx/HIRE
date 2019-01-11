@@ -25,9 +25,11 @@ Vehicle_ptr VehicleRepository::find(std::string str) {
             return veh;
         }
     }
+    return nullptr;
 }
 std::string VehicleRepository::getAll() {
     string temp= " ";
+
     for(Vehicle_ptr veh: this->repoList)
     {
       temp+= veh->vehicleInfo() + " ";

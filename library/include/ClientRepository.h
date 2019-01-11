@@ -13,6 +13,8 @@ using namespace std;
 typedef shared_ptr<Client> Client_ptr;
 
 class ClientRepository: public Repository<Client_ptr>{
+private:
+    void changeType(Client_ptr,string);
 public:
     ClientRepository();
     void create(Client_ptr ptr);
@@ -20,12 +22,7 @@ public:
     void update();
     std::string getAll(); //zwraca report
     Client_ptr find(std::string);
-    void removeClient(int);
-
-    void changeType(Client_ptr,string);
-
     ~ClientRepository();
-
 };
 //typedef shared_ptr<ClientRepository>CR_ptr;
 #endif //PRO_WYPO_CLIENTREPOSITORY_H
