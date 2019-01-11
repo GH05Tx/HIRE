@@ -17,6 +17,16 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="check">
+				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Library">
 				<Option output="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library"/>
@@ -60,6 +70,54 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test/fast"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
@@ -191,6 +249,21 @@
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/vehicle.cpp">
 			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ClientTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ManagerTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/UuidTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/VehicleTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/master.cpp">
+			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

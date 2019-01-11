@@ -25,25 +25,26 @@ void RentsManager::changeClientType(Client_ptr client) {
 
 
 
-void RentsManager::rentVehicle(Vehicle_ptr vehicle, Client_ptr client) {
+bool RentsManager::rentVehicle(Vehicle_ptr vehicle, Client_ptr client) {
     cout<<"JEDEN"<<endl;
 
     if (this->currentRents.find(vehicle)!=nullptr) {
-        throw new RentException();
+        throw RentException();
     }
 
     if (client->getNumberOfRents() > client->getMRents()) {
-        throw new RentException();
+        throw RentException();
     }
     vehicleRepository.create(vehicle);
     clientRepository.create(client);
     Rent_ptr one(new Rent(vehicle, client));
     this->currentRents.create(one);
+    return true;
 }
 
-void RentsManager::returnVehicle(Vehicle_ptr vehicle) {
+bool RentsManager::returnVehicle(Vehicle_ptr vehicle) {
     if (this->currentRents.find(vehicle) == nullptr) {
-        throw new RentException();
+        throw RentException();
     }
     Rent_ptr one = this->currentRents.find(vehicle);
     Client_ptr client_ptr = one->getClient();
@@ -51,6 +52,7 @@ void RentsManager::returnVehicle(Vehicle_ptr vehicle) {
     this->archiveRents.create(one);
     //tu mozna dodac spr czy klient awansowal
     this->changeClientType(client_ptr);
+    return true;
 }
 
 list<Rent_ptr> RentsManager::getAllClientRents(Client_ptr client) {
@@ -59,7 +61,7 @@ list<Rent_ptr> RentsManager::getAllClientRents(Client_ptr client) {
 
 int RentsManager::checkClientRentBallance(Client_ptr client) {
     list<Rent_ptr> lista = this->archiveRents.getAllClientRents(client);
-    int cost;
+    int cost=0;
     for (Rent_ptr rent: lista) {
         cost += rent->getCost();
     }

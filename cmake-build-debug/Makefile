@@ -125,6 +125,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named check
+
+# Build rule for target.
+check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 check
+.PHONY : check
+
+# fast build rule for target.
+check/fast:
+	$(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
+.PHONY : check/fast
+
+#=============================================================================
 # Target rules for targets named Library
 
 # Build rule for target.
@@ -136,6 +149,19 @@ Library: cmake_check_build_system
 Library/fast:
 	$(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
 #=============================================================================
 # Target rules for targets named Program
@@ -159,7 +185,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... edit_cache"
+	@echo "... check"
 	@echo "... Library"
+	@echo "... Test"
 	@echo "... Program"
 .PHONY : help
 

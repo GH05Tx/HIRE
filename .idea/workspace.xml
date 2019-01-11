@@ -4,6 +4,8 @@
     <generated>
       <config projectName="OOPProject" targetName="Library" />
       <config projectName="OOPProject" targetName="Program" />
+      <config projectName="OOPProject" targetName="Test" />
+      <config projectName="OOPProject" targetName="check" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,13 +15,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956457e8-f98e-4ecd-b6d4-7f3d9d0f70ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/src/RentsManager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/include/ClientRepository.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/ClientRepository.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/ClientRepository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/ClientRepository.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OOPProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OOPProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/src/RentsManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/src/RentsManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/src/rent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Library.dir/src/rent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/Test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/check.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/check.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/Library.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/Library.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/library/libLibrary.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/library/libLibrary.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/Program.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/Program.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/program/Program" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/program/Program" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/include/RentsManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/RentsManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/src/RentsManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentsManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/RentsRepository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/RentsRepository.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/VehicleRepository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/VehicleRepository.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/rent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/rent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/test/VehicleTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/test/VehicleTest.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/library/include/RentsManager.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#108#127#0" expanded="true" />
               </folding>
@@ -43,11 +69,50 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" selection-start-line="6" selection-start-column="25" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/test/master.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/test/VehicleTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library/test/ManagerTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/RentsManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="253">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
                 <element signature="e#1#26#0" expanded="true" />
               </folding>
@@ -58,83 +123,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/rent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/include/rent.h">
+        <entry file="file://$PROJECT_DIR$/library/src/vehicle.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="164">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/include/RentsRepository.h">
+        <entry file="file://$PROJECT_DIR$/library/test/ClientTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/VehicleRepository.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="355">
+              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
               <folding>
-                <element signature="e#42#83#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/RentsRepository.cpp">
+        <entry file="file://$PROJECT_DIR$/program/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/ClientRepository.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="e#41#70#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/include/ClientRepository.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#114#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/library/CMakeLists.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
         <option value="$PROJECT_DIR$/library/include/RentException.h" />
         <option value="$PROJECT_DIR$/library/src/RentException.cpp" />
@@ -157,17 +176,21 @@
         <option value="$PROJECT_DIR$/library/src/CurrentRentsRepository.cpp" />
         <option value="$PROJECT_DIR$/library/include/RentsRepository.h" />
         <option value="$PROJECT_DIR$/library/include/clientsmanager.h" />
-        <option value="$PROJECT_DIR$/library/src/rent.cpp" />
         <option value="$PROJECT_DIR$/library/include/rent.h" />
         <option value="$PROJECT_DIR$/library/include/VehicleRepository.h" />
         <option value="$PROJECT_DIR$/library/include/Repository.h" />
-        <option value="$PROJECT_DIR$/library/include/RentsManager.h" />
         <option value="$PROJECT_DIR$/library/src/RentsRepository.cpp" />
         <option value="$PROJECT_DIR$/library/src/ClientRepository.cpp" />
         <option value="$PROJECT_DIR$/library/src/VehicleRepository.cpp" />
         <option value="$PROJECT_DIR$/library/include/ClientRepository.h" />
         <option value="$PROJECT_DIR$/program/src/main.cpp" />
+        <option value="$PROJECT_DIR$/program/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/library/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/library/src/rent.cpp" />
+        <option value="$PROJECT_DIR$/library/test/VehicleTest.cpp" />
+        <option value="$PROJECT_DIR$/library/include/RentsManager.h" />
         <option value="$PROJECT_DIR$/library/src/RentsManager.cpp" />
+        <option value="$PROJECT_DIR$/library/test/ManagerTest.cpp" />
       </list>
     </option>
   </component>
@@ -212,6 +235,12 @@
             <path>
               <item name="OOPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="HIRE" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HIRE" type="462c0819:PsiDirectoryNode" />
               <item name="program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,7 +281,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Boost.Test.ManagerNoExceptCase">
+    <configuration name="ManagerNoExceptCase" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOPProject" TARGET_NAME="Test" RUN_TARGET_PROJECT_NAME="OOPProject" RUN_TARGET_NAME="Test" TEST_CLASS="ManagerSuite" TEST_METHOD="ManagerNoExceptCase" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentVehicleCase" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOPProject" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOPProject" RUN_TARGET_NAME="Test" TEST_CLASS="VehicleSuite" TEST_METHOD="RentVehicleCase" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleSuite" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOPProject" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOPProject" RUN_TARGET_NAME="Test" TEST_CLASS="VehicleSuite" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -268,11 +315,33 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOPProject" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOPProject" RUN_TARGET_NAME="Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOPProject" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.check" />
       <item itemvalue="Application.Library" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Program" />
+      <item itemvalue="Boost.Test.VehicleSuite" />
+      <item itemvalue="Boost.Test.RentVehicleCase" />
+      <item itemvalue="Boost.Test.ManagerNoExceptCase" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Boost.Test.ManagerNoExceptCase" />
+        <item itemvalue="Boost.Test.VehicleSuite" />
+        <item itemvalue="Boost.Test.RentVehicleCase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -287,16 +356,47 @@
       <workItem from="1546542003420" duration="3011000" />
       <workItem from="1546548064148" duration="8611000" />
       <workItem from="1546632680734" duration="6775000" />
-      <workItem from="1547205930989" duration="10747000" />
+      <workItem from="1547205930989" duration="16628000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="VehicleSuite - 2019.01.11 at 16h 52m 48s.xml">
+      <configuration name="VehicleSuite" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 14m 05s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 21m 32s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 24m 54s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 29m 42s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 30m 42s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 31m 35s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 34m 15s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 34m 43s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManagerNoExceptCase - 2019.01.11 at 17h 36m 09s.xml">
+      <configuration name="ManagerNoExceptCase" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29144000" />
+    <option name="totallyTimeSpent" value="35025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="941" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25933832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -304,7 +404,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32881773" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32881773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32881773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,16 +425,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
-    <entry file="file://$PROJECT_DIR$/library/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/Repository.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/include/vehicle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/include/Repository.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -409,20 +492,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/include/RentsManager.h">
+    <entry file="file://$PROJECT_DIR$/library/src/ClientRepository.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
-            <element signature="e#108#127#0" expanded="true" />
+            <element signature="e#41#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/rent.cpp">
+    <entry file="file://$PROJECT_DIR$/library/src/RentsRepository.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -450,39 +536,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/ClientRepository.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#41#70#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/RentsRepository.cpp">
+    <entry file="file://$PROJECT_DIR$/library/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/test/UuidTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/vehicle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/vehicle.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/rent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="6" selection-start-column="25" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/test/VehicleTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/test/master.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/RentsManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#108#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/RentsManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="253">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding>
             <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/test/ClientTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/test/ManagerTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

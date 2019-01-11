@@ -105,6 +105,31 @@
   "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/Repository.cpp"
 },
 {
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/master.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/master.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/master.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/ClientTest.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ClientTest.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ClientTest.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/UuidTest.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/UuidTest.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/UuidTest.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/VehicleTest.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/VehicleTest.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/VehicleTest.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/ManagerTest.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ManagerTest.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ManagerTest.cpp"
+},
+{
   "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
   "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp",
   "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp"

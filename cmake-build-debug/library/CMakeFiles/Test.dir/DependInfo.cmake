@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ClientTest.cpp" "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/CMakeFiles/Test.dir/test/ClientTest.cpp.o"
+  "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/ManagerTest.cpp" "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/CMakeFiles/Test.dir/test/ManagerTest.cpp.o"
+  "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/UuidTest.cpp" "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/CMakeFiles/Test.dir/test/UuidTest.cpp.o"
   "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/VehicleTest.cpp" "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/CMakeFiles/Test.dir/test/VehicleTest.cpp.o"
   "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/test/master.cpp" "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library/CMakeFiles/Test.dir/test/master.cpp.o"
   )

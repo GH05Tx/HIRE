@@ -31,6 +31,7 @@ BOOST_AUTO_TEST_SUITE(VehicleSuite)
         client->addRent(one);
         BOOST_REQUIRE_EQUAL(client->getNrVehicles(),1);
         BOOST_REQUIRE_EQUAL(cptr->getStatus(),true);
+
         BOOST_REQUIRE_EQUAL(one->rentDuration(),0);
         one->returnVehicle();
         BOOST_REQUIRE_EQUAL(cptr->getStatus(),false);
@@ -38,6 +39,7 @@ BOOST_AUTO_TEST_SUITE(VehicleSuite)
         BOOST_REQUIRE_EQUAL(client->getNrVehicles(),0);
         client->removeRent(one);
         BOOST_REQUIRE_EQUAL(client->getNrVehicles(),0);
-    }
+
+       }
 
 BOOST_AUTO_TEST_SUITE_END()

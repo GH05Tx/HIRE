@@ -37,10 +37,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/56/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/57/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/56/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/57/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,7 +57,7 @@ CMAKE_BINARY_DIR = /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build
 include library/CMakeFiles/check.dir/progress.make
 
 library/CMakeFiles/check:
-	/snap/clion/56/bin/cmake/linux/bin/cmake -E env CTEST_OUTPUT_ON_FAILURE=1 BOOST_TEST_LOG_LEVEL=all /snap/clion/56/bin/cmake/linux/bin/ctest -C Debug --verbose
+	/snap/clion/57/bin/cmake/linux/bin/cmake -E env CTEST_OUTPUT_ON_FAILURE=1 BOOST_TEST_LOG_LEVEL=all /snap/clion/57/bin/cmake/linux/bin/ctest -C Debug --verbose
 
 check: library/CMakeFiles/check
 check: library/CMakeFiles/check.dir/build.make

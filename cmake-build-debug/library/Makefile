@@ -70,17 +70,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/57/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -91,6 +80,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/57/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -125,6 +125,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+library/CMakeFiles/check.dir/rule:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
+.PHONY : library/CMakeFiles/check.dir/rule
+
+# Convenience name for target.
+check: library/CMakeFiles/check.dir/rule
+
+.PHONY : check
+
+# fast build rule for target.
+check/fast:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
+.PHONY : check/fast
+
+# Convenience name for target.
 library/CMakeFiles/Library.dir/rule:
 	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/Library.dir/rule
 .PHONY : library/CMakeFiles/Library.dir/rule
@@ -138,6 +153,21 @@ Library: library/CMakeFiles/Library.dir/rule
 Library/fast:
 	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
+
+# Convenience name for target.
+library/CMakeFiles/Test.dir/rule:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/Test.dir/rule
+.PHONY : library/CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: library/CMakeFiles/Test.dir/rule
+
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
 src/BaseClient.o: src/BaseClient.cpp.o
 
@@ -706,6 +736,141 @@ src/vehicle.cpp.s:
 	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/vehicle.cpp.s
 .PHONY : src/vehicle.cpp.s
 
+test/ClientTest.o: test/ClientTest.cpp.o
+
+.PHONY : test/ClientTest.o
+
+# target to build an object file
+test/ClientTest.cpp.o:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
+.PHONY : test/ClientTest.cpp.o
+
+test/ClientTest.i: test/ClientTest.cpp.i
+
+.PHONY : test/ClientTest.i
+
+# target to preprocess a source file
+test/ClientTest.cpp.i:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.i
+.PHONY : test/ClientTest.cpp.i
+
+test/ClientTest.s: test/ClientTest.cpp.s
+
+.PHONY : test/ClientTest.s
+
+# target to generate assembly for a file
+test/ClientTest.cpp.s:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
+.PHONY : test/ClientTest.cpp.s
+
+test/ManagerTest.o: test/ManagerTest.cpp.o
+
+.PHONY : test/ManagerTest.o
+
+# target to build an object file
+test/ManagerTest.cpp.o:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ManagerTest.cpp.o
+.PHONY : test/ManagerTest.cpp.o
+
+test/ManagerTest.i: test/ManagerTest.cpp.i
+
+.PHONY : test/ManagerTest.i
+
+# target to preprocess a source file
+test/ManagerTest.cpp.i:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ManagerTest.cpp.i
+.PHONY : test/ManagerTest.cpp.i
+
+test/ManagerTest.s: test/ManagerTest.cpp.s
+
+.PHONY : test/ManagerTest.s
+
+# target to generate assembly for a file
+test/ManagerTest.cpp.s:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ManagerTest.cpp.s
+.PHONY : test/ManagerTest.cpp.s
+
+test/UuidTest.o: test/UuidTest.cpp.o
+
+.PHONY : test/UuidTest.o
+
+# target to build an object file
+test/UuidTest.cpp.o:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/UuidTest.cpp.o
+.PHONY : test/UuidTest.cpp.o
+
+test/UuidTest.i: test/UuidTest.cpp.i
+
+.PHONY : test/UuidTest.i
+
+# target to preprocess a source file
+test/UuidTest.cpp.i:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/UuidTest.cpp.i
+.PHONY : test/UuidTest.cpp.i
+
+test/UuidTest.s: test/UuidTest.cpp.s
+
+.PHONY : test/UuidTest.s
+
+# target to generate assembly for a file
+test/UuidTest.cpp.s:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/UuidTest.cpp.s
+.PHONY : test/UuidTest.cpp.s
+
+test/VehicleTest.o: test/VehicleTest.cpp.o
+
+.PHONY : test/VehicleTest.o
+
+# target to build an object file
+test/VehicleTest.cpp.o:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/VehicleTest.cpp.o
+.PHONY : test/VehicleTest.cpp.o
+
+test/VehicleTest.i: test/VehicleTest.cpp.i
+
+.PHONY : test/VehicleTest.i
+
+# target to preprocess a source file
+test/VehicleTest.cpp.i:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/VehicleTest.cpp.i
+.PHONY : test/VehicleTest.cpp.i
+
+test/VehicleTest.s: test/VehicleTest.cpp.s
+
+.PHONY : test/VehicleTest.s
+
+# target to generate assembly for a file
+test/VehicleTest.cpp.s:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/VehicleTest.cpp.s
+.PHONY : test/VehicleTest.cpp.s
+
+test/master.o: test/master.cpp.o
+
+.PHONY : test/master.o
+
+# target to build an object file
+test/master.cpp.o:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.o
+.PHONY : test/master.cpp.o
+
+test/master.i: test/master.cpp.i
+
+.PHONY : test/master.i
+
+# target to preprocess a source file
+test/master.cpp.i:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.i
+.PHONY : test/master.cpp.i
+
+test/master.s: test/master.cpp.s
+
+.PHONY : test/master.s
+
+# target to generate assembly for a file
+test/master.cpp.s:
+	cd /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.s
+.PHONY : test/master.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -713,9 +878,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... check"
 	@echo "... edit_cache"
 	@echo "... Library"
-	@echo "... test"
+	@echo "... Test"
 	@echo "... src/BaseClient.o"
 	@echo "... src/BaseClient.i"
 	@echo "... src/BaseClient.s"
@@ -779,6 +946,21 @@ help:
 	@echo "... src/vehicle.o"
 	@echo "... src/vehicle.i"
 	@echo "... src/vehicle.s"
+	@echo "... test/ClientTest.o"
+	@echo "... test/ClientTest.i"
+	@echo "... test/ClientTest.s"
+	@echo "... test/ManagerTest.o"
+	@echo "... test/ManagerTest.i"
+	@echo "... test/ManagerTest.s"
+	@echo "... test/UuidTest.o"
+	@echo "... test/UuidTest.i"
+	@echo "... test/UuidTest.s"
+	@echo "... test/VehicleTest.o"
+	@echo "... test/VehicleTest.i"
+	@echo "... test/VehicleTest.s"
+	@echo "... test/master.o"
+	@echo "... test/master.i"
+	@echo "... test/master.s"
 .PHONY : help
 
 

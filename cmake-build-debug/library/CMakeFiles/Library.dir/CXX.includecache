@@ -98,16 +98,6 @@ memory
 rent.h
 ../library/include/rent.h
 
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/ClientRepository.h
-memory
--
-list
--
-Repository.h
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/Repository.h
-../include/client.h
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/client.h
-
 /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/RentsManager.h
 client.h
 /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/client.h
@@ -119,26 +109,6 @@ ClientRepository.h
 /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/ClientRepository.h
 VehicleRepository.h
 /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/VehicleRepository.h
-
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/client.h
-iostream
--
-cstdlib
--
-string
--
-memory
--
-list
--
-
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientRepository.cpp
-ClientRepository.h
--
-../include/ClientRepository.h
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/ClientRepository.h
-../include/client.h
-/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include/client.h
 
 /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsManager.cpp
 RentsManager.h
