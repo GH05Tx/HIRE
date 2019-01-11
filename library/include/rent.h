@@ -44,6 +44,7 @@ public:
     int getCost();
     Vehicle_ptr getVehicle();
     Client_ptr getClient();
+
 };
 typedef shared_ptr<Rent>Rent_ptr;
 #endif //PRO_WYPO_RENT_H

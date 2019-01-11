@@ -10,6 +10,9 @@
 
 using namespace std;
 
+RentsRepository::RentsRepository() {
+
+}
 void RentsRepository::create(Rent_ptr ptr) {
     this->repoList.push_back(ptr);
 }
@@ -43,17 +46,13 @@ Rent_ptr RentsRepository::find(std::string str) {
     throw new RentException();
 }
 
-RentsRepository::~RentsRepository() {
 
-}
 
-RentsRepository::RentsRepository() {
 
-}
 
 Rent_ptr RentsRepository::find(Vehicle_ptr ptr) {
     for (Rent_ptr ptr : this->repoList) {
-        if (ptr->getVehicle() == ptr) {
+        if (ptr->getVehicle() == ptr->getVehicle()) {
             return ptr;
         }
     }
@@ -72,5 +71,9 @@ list<Rent_ptr> RentsRepository::getAllClientRents(Client_ptr ptr) {
         throw new RentException();
     }
     return rents;
+
+}
+
+RentsRepository::~RentsRepository() {
 
 }

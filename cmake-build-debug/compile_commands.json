@@ -1,142 +1,132 @@
 [
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\client.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\client.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/client.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/client.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/client.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/client.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\address.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\address.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/address.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/address.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/address.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/address.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\vehicle.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\vehicle.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/vehicle.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/vehicle.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/vehicle.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/vehicle.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\rent.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\rent.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/rent.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/rent.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/rent.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/rent.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\motorvehicle.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\motorvehicle.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/motorvehicle.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/motorvehicle.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/motorvehicle.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/motorvehicle.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\bicycle.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\bicycle.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/bicycle.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/bicycle.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/bicycle.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/bicycle.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\car.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\car.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/car.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/car.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/car.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/car.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\moped.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\moped.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/moped.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/moped.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/moped.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/moped.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\RentsRepository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\RentsRepository.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsRepository.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentsRepository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsRepository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsRepository.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\VehicleRepository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\VehicleRepository.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/VehicleRepository.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/VehicleRepository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleRepository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleRepository.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\ClientRepository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\ClientRepository.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientRepository.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientRepository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientRepository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientRepository.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\RentsManager.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\RentsManager.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentsManager.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentsManager.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsManager.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentsManager.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\GoldClient.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\GoldClient.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/GoldClient.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/GoldClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/GoldClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/GoldClient.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\BronzeClient.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\BronzeClient.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/BronzeClient.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/BronzeClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BronzeClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BronzeClient.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\SilverClient.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\SilverClient.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/SilverClient.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/SilverClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/SilverClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/SilverClient.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\BaseClient.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\BaseClient.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/BaseClient.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/BaseClient.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BaseClient.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/BaseClient.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\ClientType.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\ClientType.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientType.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientType.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientType.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientType.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\ClientException.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\ClientException.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientException.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\VehicleException.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\VehicleException.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/VehicleException.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/VehicleException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\RentException.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\RentException.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentException.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\src\\Repository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\Repository.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Repository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/Repository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/Repository.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/library",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Library.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Library.dir\\include\\clientsmanager.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\include\\clientsmanager.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/src/main.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\src\\main.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\program\\src\\main.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/program/src/main.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/ClientException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/ClientException.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\src\\ClientException.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\ClientException.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/ClientException.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/VehicleException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/VehicleException.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\src\\VehicleException.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\VehicleException.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/VehicleException.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/RentException.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/RentException.cpp"
 },
 {
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\src\\RentException.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\RentException.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/RentException.cpp"
-},
-{
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\src\\Repository.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\src\\Repository.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/src/Repository.cpp"
-},
-{
-  "directory": "C:/Users/Mateusz/CLionProjects/wypoorg/cmake-build-debug/program",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/Program.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\Program.dir\\__\\library\\include\\clientsmanager.cpp.obj -c C:\\Users\\Mateusz\\CLionProjects\\wypoorg\\library\\include\\clientsmanager.cpp",
-  "file": "C:/Users/Mateusz/CLionProjects/wypoorg/library/include/clientsmanager.cpp"
+  "directory": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/program/include -I/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/Repository.cpp.o -c /home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/Repository.cpp",
+  "file": "/home/pobi/CLionProjects/WypozyczalniaOrigin/HIRE/library/src/Repository.cpp"
 }
 ]

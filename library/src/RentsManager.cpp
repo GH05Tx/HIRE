@@ -31,6 +31,8 @@ void RentsManager::rentVehicle(Vehicle_ptr vehicle, Client_ptr client) {
     if (client->getNumberOfRents() > client->getMRents()) {
         throw new RentException();
     }
+    vehicleRepository.create(vehicle);
+    clientRepository.create(client);
     Rent_ptr one(new Rent(vehicle, client));
     this->currentRents.create(one);
 }
@@ -49,7 +51,6 @@ void RentsManager::returnVehicle(Vehicle_ptr vehicle) {
 
 list<Rent_ptr> RentsManager::getAllClientRents(Client_ptr client) {
     return this->archiveRents.getAllClientRents(client);
-
 }
 
 int RentsManager::checkClientRentBallance(Client_ptr client) {

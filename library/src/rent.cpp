@@ -37,9 +37,9 @@ Rent::Rent(Vehicle_ptr ptr, Client_ptr ptr2)
 
 int Rent::rentDuration()
 {
-    if(returnDate.is_not_a_date_time()) throw new RentException("Rent exception not a date type");
+    if(returnDate.is_not_a_date_time()) throw new RentException();
     if(returnDate.date()<rentDate.date()) { cout << "ERROR";
-    throw new RentException("Rent exception less than");
+    throw new RentException();
     }
     return (returnDate.date()-rentDate.date()).days()+1;
 }

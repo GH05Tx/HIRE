@@ -10,6 +10,7 @@
 #include "vehicle.h"
 #include "RentsRepository.h"
 #include "ClientRepository.h"
+#include "VehicleRepository.h"
 
 class RentsManager
 {
@@ -17,6 +18,7 @@ class RentsManager
     RentsRepository currentRents;
     RentsRepository archiveRents;
     ClientRepository clientRepository;
+    VehicleRepository vehicleRepository;
 public:
     RentsManager();
     void rentVehicle(Vehicle_ptr vehicle,Client_ptr client);
