@@ -12,7 +12,7 @@ Bicycle::Bicycle(string id2, int baseprice):Vehicle(id2,baseprice){}
 
 int Bicycle::actualRentalPrice()
 {
-    return baseRentPrice;
+    return Vehicle::actualRentalPrice();
 }
 
 Bicycle::~Bicycle()=default;

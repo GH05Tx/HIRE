@@ -11,10 +11,13 @@ using namespace std;
 
 class MotorVehicle:public Vehicle
 {
-protected:
+private:
     int engineDisplacement;
+    char segment;
 public:
-    MotorVehicle(string, int, int);
+    MotorVehicle(char,string, int, int);
     int getEngineDisplacement();
+    int actualRentalPrice();
+    char getSegment();
 };
 #endif //PRO_WYPO_MOTORVEHICLE_H

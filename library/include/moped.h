@@ -12,10 +12,8 @@ using namespace std;
 
 class Moped: public MotorVehicle
 {
-    char segment;
 public:
     Moped(char,string,int,int);
-    char getSegment();
     int actualRentalPrice();
     ~Moped();
 };

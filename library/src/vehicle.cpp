@@ -53,3 +53,8 @@ string Vehicle::getID()
 {
     return id;
 }
+
+int Vehicle::actualRentalPrice()
+{
+    return baseRentPrice;
+}

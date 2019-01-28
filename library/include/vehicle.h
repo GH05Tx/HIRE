@@ -12,7 +12,7 @@ using namespace std;
 
 class Vehicle
 {
-protected:
+private:
     string id;
     int baseRentPrice;
     bool ifRented;
@@ -22,7 +22,7 @@ public:
     string getID();
     bool getStatus();
     void setBool(bool);
-    virtual int actualRentalPrice()=0;
+    int actualRentalPrice();
     ~Vehicle();
 };
 typedef shared_ptr<Vehicle> Vehicle_ptr;

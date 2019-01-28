@@ -12,12 +12,10 @@ using namespace std;
 
 class Car: public MotorVehicle
 {
-    char segment;
 public:
-    Car(char, string, int, int);
+    Car(char,string, int, int);
     int actualRentalPrice();
     ~Car();
-    char getSegment();
 };
 typedef shared_ptr<Car>Car_ptr;
 #endif //PRO_WYPO_CAR_H
